@@ -12,6 +12,13 @@ The goal is to demonstrate how data science and mechanical engineering concepts 
 - Applies **linear regression** to estimate the slope (≈ Young’s modulus).
 - Visualizes the fit against experimental data.
 
+This project applies **linear regression** to the elastic portion of a stress-strain curve to estimate **Young’s Modulus**.
+
+## Files
+- `linear_regression_elastic.py` → Python script for data loading, regression, and plotting  
+- `tensile.xlsx` → Example dataset (strain vs stress)
+
+
 ### 2. **General Stress–Strain Linear Fit**
 - Works for **any dataset** with two columns (strain, stress).
 - No fixed 0.002 cutoff; user can provide elastic limit or use the full dataset.
